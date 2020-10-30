@@ -11,6 +11,9 @@ module.exports = {
       {cmd: 'svelte-check --output human', watch: '$1 --watch', output: 'stream'},
     ],
   ],
+  buildOptions: {
+    baseUrl: '/gh-pages-svelte',
+  },
   install: [
     /* ... */
   ],
