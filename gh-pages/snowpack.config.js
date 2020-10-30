@@ -13,6 +13,7 @@ module.exports = {
   ],
   buildOptions: {
     baseUrl: '/gh-pages-svelte',
+    out: '../docs',
   },
   install: [
     /* ... */
