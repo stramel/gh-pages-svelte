@@ -50,7 +50,7 @@ function create_fragment(ctx) {
 			t8 = space();
 			p2 = element("p");
 			p2.innerHTML = `<a class="App-link svelte-1wncah1" href="https://svelte.dev" target="_blank" rel="noopener noreferrer">Learn Svelte</a>`;
-			if (img.src !== (img_src_value = "/logo.svg")) attr(img, "src", img_src_value);
+			if (img.src !== (img_src_value = "./logo.svg")) attr(img, "src", img_src_value);
 			attr(img, "class", "App-logo svelte-1wncah1");
 			attr(img, "alt", "logo");
 			attr(p0, "class", "svelte-1wncah1");
